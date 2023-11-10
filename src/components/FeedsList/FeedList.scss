@@ -1,0 +1,18 @@
+.feed-list {
+  padding: 30px;
+  margin: 10px auto;
+
+  &__feeds{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-transform:uppercase;
+    font-size: 20px;
+  }
+
+  &__loader{
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+  }
+}

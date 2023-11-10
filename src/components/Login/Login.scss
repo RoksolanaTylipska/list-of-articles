@@ -1,0 +1,97 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin: 120px auto;
+  padding: 0;
+
+  width: 80%;
+  height: 50vh;
+
+  border: 1px solid rgb(207, 203, 203);
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+
+  @media (min-width: 640px) {
+    width: 60%;
+  }
+
+  @media (min-width: 1200px) {
+    width: 30%;
+  }
+
+  &__title {
+    justify-content: start;
+    font-size: 54px;
+
+    @media (max-width: 640px) {
+      font-size: 40px;
+    }
+  }
+  
+  &__input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+    padding-bottom: 30px;
+
+    width: 90%;
+
+    @media (max-width: 640px) {
+      width: 90%;
+    }
+  }
+
+  &__input-box {
+    height: 48px;
+    border-radius: 8px;
+    border: 1px solid grey;
+    padding: 8px;
+    width: 80%;
+
+    font-size: 15px;
+
+    @media (max-width: 640px) {
+      width: 80%;
+    }
+  }
+
+  &__error {
+    color: red;
+    font-size: 12px;
+    align-items: start;
+  }
+
+}
+
+
+.resultContainer, .historyItem { 
+  flex-direction: row;
+  display: flex;
+  width: 400px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.historyContainer {
+  flex-direction: column;
+  display: flex;
+  height: 200px;
+  align-items: center;
+  flex-grow: 5;
+  justify-content: flex-start;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 260px;
+}
+
