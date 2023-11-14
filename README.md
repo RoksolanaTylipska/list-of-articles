@@ -1,4 +1,4 @@
-# [DEMO LINK] (https://roksolanatylipska.github.io/list-of-articles/)
+# [DEMO LINK](https://roksolanatylipska.github.io/list-of-articles/)
 
 # Feed Reader
 
