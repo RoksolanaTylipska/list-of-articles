@@ -5,7 +5,7 @@ export const LogInContext = createContext();
 const LogInContextProvider = ({ children }) => {
   const [user, setUser] = useState([]);
   const [userId, setUserId] = useState([]);
-  const [loginButton, setLoginButton] = useState(localStorage.getItem('loginStatus'));
+  const [loginButton, setLoginButton] = useState(localStorage.getItem('loginStatus') || "open");
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [articles, setArticles] = useState([])
